@@ -14,6 +14,33 @@
     <string name="add">Add</string>
     <string name="choose_app">Choose app</string>
     
+    <!-- Power Menu fragment -->
+    <string name="powermenu_settings_title">PowerMenu</string> 
+    <!-- Power menu customization -->
+    <string name="power_menu_reboot_title">Reboot</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_users_title">User switcher</string>
+    <string name="power_menu_search_title">Search</string>
+    <string name="power_menu_voice_title">Voice search</string>
+    <string name="power_menu_settings_title">Settings shortcut</string>
+    <string name="power_menu_lockdown_title">Device lockdown</string>
+    <string name="power_menu_bug_report_title">Bug report</string>
+    <string name="power_menu_sound_title">Sound panel</string>
+    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>       
+    
+    <!-- Display fragment -->
+    <string name="display_settings_title">Display</string>
+    <!-- Wake when connected/disconnected -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn on screen when connecting or disconnecting charger</string>        
+    
+    <!-- Lockscreen Fragment -->
+    <string name="lockscreen_settings_title">Lockscreen</string>
+    <!-- Lockscreen double tap to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
+    
     <!-- StatusBar fragment --> 
     <string name="statusbar_settings_title">Statusbar</string>
     <!-- Preference to show/hide embedded battery percentage -->
