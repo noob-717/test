@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2016 The Pure Nexus Project
+<!-- Copyright (C) 2017 AquariOS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -46,6 +46,12 @@
         android:key="volbtn_music_controls"
         android:title="@string/volbtn_music_controls_title"
         android:summary="@string/volbtn_music_controls_summary"
+        android:defaultValue="false" />
+
+    <com.aquarios.settings.preferences.SystemSettingSwitchPreference
+        android:key="volume_keys_control_media_stream"
+        android:title="@string/volume_keys_control_media_stream_title"
+        android:summary="@string/volume_keys_control_media_stream_summary"
         android:defaultValue="false" />
 
     <ListPreference
