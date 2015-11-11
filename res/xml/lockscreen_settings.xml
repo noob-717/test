@@ -17,6 +17,12 @@
     <PreferenceCategory
         android:key="lockscreen_options"
         android:title="@string/lockscreen_options_title" >
+        
+        <com.aquarios.settings.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_anywhere"
+            android:title="@string/double_tap_sleep_anywhere_title"
+            android:summary="@string/double_tap_sleep_anywhere_summary"
+            android:defaultValue="false" />        
 
         <com.aquarios.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_battery_info"
