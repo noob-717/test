@@ -23,7 +23,12 @@
     <PreferenceCategory
         android:key="aquarios_buttons"
         android:title="@string/aquarios_buttons">
-              
+
+        <PreferenceScreen
+            android:fragment="com.flash.settings.fragments.NavbarSettings"
+            android:key="flash_navbar_settings"
+            android:title="@string/navbar_settings_title"/>
+     
           <PreferenceScreen
               android:fragment="com.aquarios.settings.fragments.VolumeRockerSettings"
               android:key="aquarios_volumerocker_settings"
