@@ -2,7 +2,13 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    
+
+    <PreferenceScreen
+        android:fragment="com.aquarios.settings.fragments.StatusbarBatterySettings"
+        android:key="statusbar_battery"
+        android:title="@string/battery_title"
+        android:summary="@string/statusbar_battery_summary" />
+
     <PreferenceScreen
         android:fragment="com.aquarios.settings.fragments.ClockSettings"
         android:key="pure_clock_settings"
