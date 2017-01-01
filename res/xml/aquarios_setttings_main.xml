@@ -7,12 +7,23 @@
     <PreferenceCategory
         android:key="aquarius_ui"
         android:title="@string/aquarios_ui">
-        
+
         <PreferenceScreen
             android:fragment="com.aquarios.settings.fragments.StatusBarSettings"
             android:key="aquarius_statusbar_settings"
             android:title="@string/statusbar_settings_title"/>
-            
-    </PreferenceCategory>                        
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="aquarios_buttons"
+        android:title="@string/aquarios_buttons">
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="aquarios_system"
+        android:title="@string/aquarios_system">
+        
+     </PreferenceCategory>
 </PreferenceScreen>

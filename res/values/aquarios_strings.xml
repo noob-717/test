@@ -4,6 +4,8 @@
 
      <!-- Categories -->
      <string name="aquarios_ui">NOTIFICATIONS</string>
+     <string name="aquarios_buttons">BUTTONS</string>
+     <string name="aquarios_system">SYSTEM</string>
      
      <!-- StatusBar fragment -->
      <string name="statusbar_settings_title">Statusbar</string>
