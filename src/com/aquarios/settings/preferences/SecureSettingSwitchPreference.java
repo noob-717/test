@@ -63,5 +63,3 @@ public class SecureSettingSwitchPreference extends SwitchPreference {
         return Settings.Secure.getString(getContext().getContentResolver(), getKey()) != null;
     }
 }
-0
-

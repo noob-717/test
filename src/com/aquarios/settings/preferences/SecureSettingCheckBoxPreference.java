@@ -63,5 +63,3 @@ public class SecureSettingCheckBoxPreference extends CheckBoxPreference {
         return Settings.Secure.getString(getContext().getContentResolver(), getKey()) != null;
     }
 }
-0
-

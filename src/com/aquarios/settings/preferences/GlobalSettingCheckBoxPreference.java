@@ -63,5 +63,3 @@ public class GlobalSettingCheckBoxPreference extends CheckBoxPreference {
         return Settings.Global.getString(getContext().getContentResolver(), getKey()) != null;
     }
 }
-0
-

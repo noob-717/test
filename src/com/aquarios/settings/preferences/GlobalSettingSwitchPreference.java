@@ -63,5 +63,3 @@ public class GlobalSettingSwitchPreference extends SwitchPreference {
         return Settings.Global.getString(getContext().getContentResolver(), getKey()) != null;
     }
 }
-0
-

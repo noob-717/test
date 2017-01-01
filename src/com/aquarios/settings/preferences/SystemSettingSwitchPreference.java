@@ -63,5 +63,3 @@ public class SystemSettingSwitchPreference extends SwitchPreference {
         return Settings.System.getString(getContext().getContentResolver(), getKey()) != null;
     }
 }
-0
-

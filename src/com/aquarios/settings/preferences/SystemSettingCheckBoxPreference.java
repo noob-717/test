@@ -63,5 +63,3 @@ public class SystemSettingCheckBoxPreference extends CheckBoxPreference {
         return Settings.System.getString(getContext().getContentResolver(), getKey()) != null;
     }
 }
-0Trackers
-
