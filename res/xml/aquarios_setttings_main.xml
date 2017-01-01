@@ -2,6 +2,17 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-        android:title="@string/noob_settings_title" >
+        android:title="@string/aquarius_settings_title" >
+
+    <PreferenceCategory
+        android:key="aquarius_ui"
+        android:title="@string/aquarios_ui">
+        
+        <PreferenceScreen
+            android:fragment="com.aquarios.settings.fragments.StatusBarSettings"
+            android:key="aquarius_statusbar_settings"
+            android:title="@string/statusbar_settings_title"/>
+            
+    </PreferenceCategory>                        
 
 </PreferenceScreen>
