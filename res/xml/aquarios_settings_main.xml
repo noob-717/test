@@ -13,7 +13,7 @@
               android:key="aquarios_notification_drawer_settings"
               android:title="@string/notification_drawer_settings_title"/>
           
-          <PreferenceScreen
+        <PreferenceScreen
             android:fragment="com.aquarios.settings.fragments.StatusBarSettings"
             android:key="aquarius_statusbar_settings"
             android:title="@string/statusbar_settings_title"/>
@@ -28,8 +28,13 @@
             android:fragment="com.flash.settings.fragments.NavbarSettings"
             android:key="flash_navbar_settings"
             android:title="@string/navbar_settings_title"/>
-     
-          <PreferenceScreen
+              
+        <PreferenceScreen
+            android:fragment="com.aquarios.settings.fragments.PowerMenuSettings"
+            android:key="pure_powermenu_settings"
+            android:title="@string/powermenu_settings_title"/>            
+            
+        <PreferenceScreen
               android:fragment="com.aquarios.settings.fragments.VolumeRockerSettings"
               android:key="aquarios_volumerocker_settings"
               android:title="@string/volumerocker_settings_title"/>
