@@ -149,6 +149,8 @@
     
     <!-- Notification drawer fragment -->
     <string name="notification_drawer_settings_title">Notification drawer</string>
+    <string name="notification_panel_title">Notification panel</string>
+    <string name="qs_header_title">Quick settings header</string>
     <!-- qs brightness slider -->
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show brightness slider on quick settings panel</string>
@@ -295,4 +297,18 @@
     <string name="statusbar_battery_charging_color_enable_title">Color while charging</string>
     <string name="statusbar_battery_charging_color_enable_summary"></string>
     <string name="battery_enable_title">Show battery</string>
+
+    <!-- QS headers -->
+    <string name="status_bar_custom_header_title">Custom header image</string>
+    <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
+    <string name="daylight_header_pack_title">Header image pack</string>
+    <string name="status_bar_custom_header_shadow_title">Shadow header image</string>
+    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
+    <string name="static_header_provider" translatable="false">static</string>
+    <string name="daylight_header_provider" translatable="false">daylight</string>
+    <string name="static_header_provider_title">Static</string>
+    <string name="daylight_header_provider_title">Dynamic</string>
+    <string name="custom_header_provider_title">Header provider</string>
+    <string name="custom_header_browse_title">Browse installed headers</string>
+    <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
 </resources>
