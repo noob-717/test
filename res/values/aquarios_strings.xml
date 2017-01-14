@@ -64,6 +64,7 @@
 
     <!-- Display fragment -->
     <string name="display_settings_title">Display</string>
+     <string name="display_category">Display options</string>
 
     <!-- Notification drawer fragment -->
     <string name="notification_drawer_settings_title">Notification drawer</string>
