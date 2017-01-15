@@ -7,6 +7,11 @@
     <PreferenceCategory
         android:key="aquarius_ui"
         android:title="@string/aquarios_ui">
+
+        <PreferenceScreen
+            android:fragment="com.aquarios.settings.fragments.LockScreenSettings"
+            android:key="aquarios_lockscreen_settings"
+            android:title="@string/lockscreen_settings_title"/>
             
         <PreferenceScreen
             android:fragment="com.aquarios.settings.fragments.NotificationDrawerSettings"
