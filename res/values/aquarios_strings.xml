@@ -107,4 +107,7 @@
 
     <!-- Volume Rocker fragment -->
     <string name="volumerocker_settings_title">Volume rocker</string>
+    
+    <!-- Lockscreen Fragment -->
+    <string name="lockscreen_settings_title">Lockscreen</string>
 </resources>

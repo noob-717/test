@@ -7,7 +7,7 @@
     <PreferenceCategory
         android:key="aquarius_ui"
         android:title="@string/aquarios_ui">
-
+            
         <PreferenceScreen
             android:fragment="com.aquarios.settings.fragments.NotificationDrawerSettings"
             android:key="aquarios_notification_drawer_settings"
@@ -15,7 +15,7 @@
           
         <PreferenceScreen
             android:fragment="com.aquarios.settings.fragments.StatusBarSettings"
-            android:key="aquarius_statusbar_settings"
+            android:key="aquarios_statusbar_settings"
             android:title="@string/statusbar_settings_title"/>
 
     </PreferenceCategory>
