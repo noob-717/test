@@ -20,4 +20,10 @@
         android:title="@string/status_bar_toggle_brightness"
         android:summary="@string/status_bar_toggle_brightness_summary"
         android:defaultValue="false" />
+
+    <PreferenceScreen
+        android:fragment="com.aquarios.settings.fragments.NetworkTrafficSettings"
+        android:key="aquarios_nettraffic_settings"
+        android:title="@string/nettraffic_settings_title"
+        android:summary="@string/nettraffic_settings_summary" />
 </PreferenceScreen>
