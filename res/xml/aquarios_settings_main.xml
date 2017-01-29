@@ -20,7 +20,7 @@
             
         <PreferenceScreen
             android:fragment="com.aquarios.settings.fragments.RecentSettings"
-            android:key="pure_recent_settings"
+            android:key="aquarios_recent_settings"
             android:title="@string/recent_settings_title"/>            
           
         <PreferenceScreen
