@@ -35,6 +35,8 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.flash.settings.preferences.CustomSeekBarPreference;
+
 import java.util.List;
 import java.util.ArrayList;
 
