@@ -54,6 +54,12 @@
         android:key="lockscreen_secure_options"
         android:title="@string/lockscreen_secure_options_title" >
 
+        <com.aquarios.settings.preferences.SystemSettingSwitchPreference
+            android:key="fingerprint_success_vib"
+            android:title="@string/fprint_sucess_vib_title"
+            android:summary="@string/fprint_sucess_vib_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
